@@ -1,0 +1,20 @@
+###
+POST http://localhost:3000/api/infos HTTP/1.1
+Content-Type: application/json
+
+{
+    "name":"objeto3"
+}
+###
+GET http://localhost:3000/api/infos HTTP/1.1
+
+###
+PUT http://localhost:3000/api/infos/619838a991e6164fd37a9d89 HTTP/1.1
+Content-Type: application/json
+
+{
+    "name":"objeto2222"
+}
+
+###
+DELETE http://localhost:3000/api/infos/6198378e91e6164fd37a9d84 HTTP/1.1
